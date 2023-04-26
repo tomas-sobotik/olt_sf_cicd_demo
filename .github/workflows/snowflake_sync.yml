@@ -33,6 +33,6 @@ jobs:
         if: ${{ success() }}
         run: |
            pip install schemachange
-           schemachange -f ${GITHUB_WORKSPACE}/db_objects -a $SNOWFLAKE_ACCOUNT -u $SNOWFLAKE_USER -r $SNOWFLAKE_ROLE -w $SNOWFLAKE_WH -c $SNOWFLAKE_DB.METADATA.CHANGE_HISTORY --var $SCHEMACHANGE_VAR 
+           schemachange -f ${GITHUB_WORKSPACE}/db_objects -a $SNOWFLAKE_ACCOUNT -u $SNOWFLAKE_USER -r $SNOWFLAKE_ROLE -w $SNOWFLAKE_WH -c $SNOWFLAKE_DB.PUBLIC.CHANGE_HISTORY --var $SCHEMACHANGE_VAR 
            
          
