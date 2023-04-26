@@ -6,4 +6,4 @@ CREATE OR REPLACE view users_view
 as select
 LAST_NAME,
 EMAIL
-from users;
+from users; 
