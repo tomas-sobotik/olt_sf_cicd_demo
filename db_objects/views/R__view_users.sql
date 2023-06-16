@@ -1,4 +1,3 @@
-R__view_users.sql
 -- Set the database and schema context
 USE DATABASE {{ target_db }};
 USE SCHEMA PUBLIC;   
