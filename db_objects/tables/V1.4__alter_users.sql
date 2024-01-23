@@ -2,11 +2,4 @@
 USE DATABASE {{ target_db }};
 USE SCHEMA PUBLIC;   
 
-CREATE OR REPLACE view users_view
-as select
-LAST_NAME,
-EMAIL,
-BIRTH_YEAR
-
-
-from users;  
+alter table users add column test varchar;
