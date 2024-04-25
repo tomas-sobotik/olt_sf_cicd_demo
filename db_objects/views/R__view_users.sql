@@ -6,7 +6,8 @@ CREATE OR REPLACE view users_view
 as select
 LAST_NAME,
 EMAIL,
-BIRTH_YEAR
+BIRTH_YEAR,
+PHONE
 
 
 from users;  
