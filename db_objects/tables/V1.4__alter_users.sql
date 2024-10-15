@@ -3,4 +3,4 @@
 USE DATABASE {{ target_db }};
 USE SCHEMA PUBLIC;   
 
-alter table users add column phone varchar;
+alter table users add column phone varchar; 
